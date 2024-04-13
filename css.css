@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*----- sidebar's style -----*/
+
+.sidebar{
+    text-align: center;
+    width: 0;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 2s;
+} 
+
+.active{
+    width: 25%;
+}
+
+ /*----- button's style -----*/
+.btn{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.close::after{
+    content : "\01F880  back" ;
+}
+
+.open::after{
+    content:"\002630  open" ;
+} 
+
